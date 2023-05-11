@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+body {
+    width: 100%;
+    background-image: url(background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.upper-text, .lower-text {
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.upper-text {
+    padding: 2% 5% 5% 0%;
+}
+
+.name-logo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 5px 5px 4px rgba(255, 4, 4, 0.65);
+    text-align: end;
+    padding: 0;
+}
+
+.middle-text {
+    padding-top: 10%;
+}
+
+.large-text {
+    text-align: center;
+    color: #FFDB1E;
+    font-weight: 700;
+    font-size: 48px;
+    text-shadow: 5px 5px 4px #686036;
+}
+
+.small-text {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.25);
+}
+
+.lower-text {
+    padding-top: 18%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 5px 5px 4px rgba(255, 4, 4, 0.65);
+    padding: 1%;
+}
